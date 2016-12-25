@@ -1,0 +1,281 @@
+$background-naranja:#EBC984;
+$background-gray:#ECE9E2;
+$background-melon:#EDE2CE;
+$marron-rojizo:#B52A03;
+$blanco: white;
+$verde: #53A44A;
+$negrita:bold;
+$pd-btn: 50px;
+
+*{
+    text-align: center;
+}
+
+.bg {
+    background-image: url("../img/background_fruit.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+/* Navegador */
+.img-logo {
+    width: 13%;
+}
+
+.menu {
+    color: $marron-rojizo;
+    font-weight: $negrita;
+}
+
+/* Header */
+.cuadro-txt {
+    margin-top: 10%;
+}
+
+.txt-principal {
+    font-weight: $negrita;
+    font-size: 45px;
+}
+
+.mg-top {
+    margin-top: -2%;
+}
+
+.txt-frase {
+    margin: 4% 0;
+    font-size: 20px;
+}
+
+#btn {
+    background-color: $marron-rojizo;
+    color: $blanco;
+    border-radius: 15px;
+    padding-left: $pd-btn;
+    padding-right: $pd-btn;
+
+}
+
+/* Section */
+.div-pagina {
+    border-left: 80px solid transparent;
+    border-bottom: 260px solid $background-melon;
+    border-left-width: 1351px;
+    content: ' ';
+    position: relative;
+    z-index: 1;
+    top:16%;
+}
+
+.bg-melon {
+    background-color: $background-melon;
+}
+
+.enmarcado {
+    background-color: $blanco;
+    box-shadow: 5px 0px 10px 2px #C9C0B1;
+    padding: 1.5em;
+    padding-bottom: 40px;
+    position:absolute;
+    top: 84%;
+    z-index: 1;
+    left: 14%;
+}
+
+.titulo-section {
+    font-size: 30px;
+    font-weight: $negrita;
+    margin: 20px 0px 0px;
+    color: black;
+}
+
+.subrayado-princ {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 5px solid $verde;
+    border-left: 100px solid transparent;
+    margin-left: 39%;
+    margin-bottom: 5%;
+}
+
+.img-circle {
+    border: 5px solid $verde;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+.caract {
+    font-weight: $negrita;
+    text-align: left;
+    margin: 0;
+    color: black;
+
+}
+
+.subrayado {
+    border-left: 90px solid $verde;
+    border-bottom: 6px solid transparent;
+}
+
+.txt-posit {
+    text-align: left;
+    font-size: 14px;
+}
+
+
+/* Catalo de Frutas */
+
+/* Article */
+.div-pag {
+    border-left: 80px solid $background-gray;
+    border-top: 140px solid $background-melon;
+   border-left-width: 1351px;
+    content: ' ';
+    position: relative;
+    z-index: 1;
+
+}
+
+.gray {
+    background-color: $background-gray;
+}
+
+.mg-botton {
+    margin-bottom: 0;
+}
+
+.mg-frase {
+    margin-bottom: 4%;
+}
+
+#btn-green {
+    background-color: $verde;
+    color: $blanco;
+    border-radius: 15px;
+    padding-left: $pd-btn;
+    padding-right: $pd-btn;
+    margin-bottom: 10%;
+}
+
+.img-fruit {
+    width: 100%;
+    height: 270px;
+}
+
+.img-fruit1 {
+    height: 180px;
+    background-image: url("../img/orange.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.color-caja {
+    background-color: $blanco;
+}
+
+.centrar-caja {
+    background-color: $blanco;
+    width: auto;
+    margin-left: 20px;
+}
+
+.descr-produc {
+    font-size: 23px;
+    font-weight: $negrita;
+    text-align: left;
+    margin: 2px;
+    line-height: initial;
+}
+
+.cont-fruit {
+    text-align: left;
+    font-size: 15px;
+}
+
+.admin {
+    font-weight: $negrita;
+}
+
+.fecha {
+    margin-left: 20px;
+}
+/* Testimonio*/
+.bg-testimonio {
+    background-color: $verde;
+}
+
+.bg-form {
+    background-color: $verde;
+    width: 100%;
+    height: 400px;
+}
+
+.subrayado-princ-white {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 5px solid $blanco;
+    border-left: 100px solid transparent;
+    margin-left: 39%;
+    margin-bottom: 3%;
+}
+
+.color-white {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: $negrita;
+    margin: 0;
+    line-height: initial;
+}
+
+#img-persona {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-bottom: 4%;
+
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: yellow;
+    width: 15px;
+    height: 15px;
+}
+
+/* Formulario*/
+
+/* Footer */
+.txt-footer {
+    font-weight: $negrita;
+}
+
+.txt-red {
+    color: $marron-rojizo;
+}
+
+.brd-img {
+    box-shadow: 0px 1px 1px  0px black;
+    border: 1px solid gray;
+}
+
+.color-blue {
+    color: #074E68;
+}
+
+
+
+
+
+
