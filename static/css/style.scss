@@ -7,7 +7,7 @@ $verde: #53A44A;
 $negrita:bold;
 $pd-btn: 50px;
 
-*{
+.txt-center {
     text-align: center;
 }
 
@@ -37,6 +37,7 @@ $pd-btn: 50px;
 .txt-principal {
     font-weight: $negrita;
     font-size: 45px;
+    text-align: center;
 }
 
 .mg-top {
@@ -46,6 +47,7 @@ $pd-btn: 50px;
 .txt-frase {
     margin: 4% 0;
     font-size: 20px;
+    text-align: center;
 }
 
 #btn {
@@ -54,6 +56,7 @@ $pd-btn: 50px;
     border-radius: 15px;
     padding-left: $pd-btn;
     padding-right: $pd-btn;
+
 
 }
 
@@ -88,6 +91,7 @@ $pd-btn: 50px;
     font-weight: $negrita;
     margin: 20px 0px 0px;
     color: black;
+    text-align: center;
 }
 
 .subrayado-princ {
@@ -149,6 +153,7 @@ $pd-btn: 50px;
 
 .mg-frase {
     margin-bottom: 4%;
+    text-align: center;
 }
 
 #btn-green {
@@ -255,20 +260,30 @@ $pd-btn: 50px;
 }
 
 /* Formulario*/
+.titulo-section2 {
+    font-size: 30px;
+    font-weight: $negrita;
+    margin-top: 8%;
+    color: black;
+    text-align: center;
+}
+
 .bg-formulario {
     background-color: $blanco;
     width: 100%;
     height: 275px;
+    margin-bottom: 5%;
 }
 
 .bg-input  {
     background-color: #FAE9D4 !important;
+    color: black !important;
 }
 
 #btn-green-form {
     background-color: $verde;
     color: $blanco;
-    border-radius: 15px;
+    border-radius: 50px;
     margin: 10px;
 }
 
