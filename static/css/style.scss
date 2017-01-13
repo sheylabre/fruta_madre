@@ -60,12 +60,12 @@ $pd-btn: 50px;
 /* Section */
 .div-pagina {
     border-left: 80px solid transparent;
-    border-bottom: 260px solid $background-melon;
+    border-bottom: 140px solid $background-melon;
     border-left-width: 1351px;
     content: ' ';
     position: relative;
     z-index: 1;
-    top:16%;
+    top:260px;
 }
 
 .bg-melon {
@@ -80,7 +80,7 @@ $pd-btn: 50px;
     position:absolute;
     top: 84%;
     z-index: 1;
-    left: 14%;
+    left: 12%;
 }
 
 .titulo-section {
@@ -255,6 +255,22 @@ $pd-btn: 50px;
 }
 
 /* Formulario*/
+.bg-formulario {
+    background-color: $blanco;
+    width: 100%;
+    height: 275px;
+}
+
+.bg-input  {
+    background-color: #FAE9D4 !important;
+}
+
+#btn-green-form {
+    background-color: $verde;
+    color: $blanco;
+    border-radius: 15px;
+    margin: 10px;
+}
 
 /* Footer */
 .txt-footer {
